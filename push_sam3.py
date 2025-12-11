@@ -7,7 +7,7 @@ import os
 def auth_drive():
     """OAuth2 and return GoogleDrive"""
     gauth = GoogleAuth()
-    gauth.LoadClientConfigFile("./client_secrets.json")
+    gauth.LoadClientConfigFile("/root/VLM-high-resolution/client_secret.json")
     # gauth.LocalWebserverAuth()
     gauth.CommandLineAuth()  
     return GoogleDrive(gauth)

@@ -209,3 +209,5 @@ __marimo__/
 /cache
 /.cache
 /sam3
+/client_secret.json
+**.tar.gz
