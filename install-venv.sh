@@ -1,5 +1,6 @@
 apt update
 apt install git -y
+apt install -y libgl1 libglib2.0-0 libsm6 libxext6 libxrender1
 
 mkdir -p ~/miniconda3
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh

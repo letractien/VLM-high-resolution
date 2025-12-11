@@ -211,3 +211,6 @@ __marimo__/
 /sam3
 /client_secret.json
 **.tar.gz
+**.mp4
+**.jpg
+**.png
