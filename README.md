@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 # VLM-high-resolution
 ## Check 
 
@@ -23,13 +22,6 @@ pip install flash-attn===1.0.4 --no-build-isolation
 pip install huggingface_hub==0.36.0
 pip install transformers==4.51.3
 pip install 'accelerate>=0.26.0'
-=======
-# \# VLM-high-resolution
-
-# 
-
-# pip install numpy==1.26.4
-
-# pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cu124
-
->>>>>>> Stashed changes
+pip install tiktoken
+pip install roboflow
+pip install timm
