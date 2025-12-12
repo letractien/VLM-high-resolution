@@ -13,4 +13,8 @@ conda init --all
 conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/main
 conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r
 conda create -n .venv python=3.11.9 -y
+
+bash
 conda activate .venv
+
+git clone https://github.com/letractien/VLM-high-resolution.git
